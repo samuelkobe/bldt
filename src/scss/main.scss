@@ -1,0 +1,12 @@
+//sanitize.css
+// @import url(~sanitize.css); // uncomment if you want sanitize.css included.
+
+//webokcss
+@import "global";
+
+//comps
+@import "comps/header";
+@import "comps/wpcf7-overrides";
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');

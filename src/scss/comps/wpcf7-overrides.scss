@@ -1,0 +1,15 @@
+form.wpcf7-form {
+    @apply w-full mx-auto;
+    label {
+        @apply mb-2;
+    }
+    input, textarea {
+        @apply text-grey-dark w-full focus:ring-brand-main focus:border-brand-main;
+    }
+    textarea {
+        @apply h-32;
+    }
+    input.wpcf7-submit {
+        @apply button cursor-pointer w-auto;
+    }
+}
